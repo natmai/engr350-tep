@@ -18,46 +18,46 @@ const NavBar = () => {
     },
     {
         title: 'User Information',
-        artist: 'Spotify Trackers',
+        artist: '',
         imageUrl: 'https://i.pinimg.com/736x/56/cf/d4/56cfd446e7b3b9256044bcb53035a154.jpg',
         targetId: 'user-information'
     },
     {
         title: 'Streaming History',
-        artist: 'No Transparency',
-        imageUrl: 'https://i.pinimg.com/736x/4d/0a/02/4d0a02f0fcd10ded39a59df13a274930.jpg',
+        artist: '',
+        imageUrl: 'https://i.pinimg.com/736x/cb/54/10/cb5410ae82bb789a203348c7fb1f7e75.jpg',
         targetId: 'streaming-history'
     },
     {
         title: 'Search History',
-        artist: 'Your Information',
-        imageUrl: 'https://i.pinimg.com/736x/15/6b/93/156b9394703d4e3351d182ed0f1176a4.jpg',
+        artist: '',
+        imageUrl: 'https://i.pinimg.com/736x/27/14/6e/27146e391942bb9abf36bf32cdac9d9e.jpg',
         targetId: 'search-history'
       },
       {
           title: 'Inferences',
           artist: '',
-          imageUrl: 'https://i.pinimg.com/736x/56/da/f2/56daf20928b1dec3a2edeb2f587f845d.jpg',
+          imageUrl: 'https://i.pinimg.com/736x/0e/16/3d/0e163d8ee0ff7e6d6fb09d269ee9c8be.jpg',
           targetId: 'inferences'
       },
       {
           title: 'Playlists & Marquee',
           artist: '',
-          imageUrl: 'https://ma.dev.wsa.pt/wp-content/uploads/2022/07/gdpr-e1657494749939.jpg',
+          imageUrl: 'https://i.pinimg.com/736x/21/0e/60/210e60e71d9fe8207932c8f12625ffcc.jpg',
           targetId: 'playlists-marquee'
       },
           {
       title: 'Wrapped',
       artist: '',
-      imageUrl: 'https://i.pinimg.com/736x/84/b5/a7/84b5a7d8fc35bee6c21339a81790ddd6.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/64/92/f7/6492f71f0e5e19a7bfad4f76dae36fde.jpg',
       targetId: 'wrapped'
     },
     
     {
-        title: 'my spotify data!',
+        title: 'mai spotify account',
         artist: 'mai',
         imageUrl: 'https://i.pinimg.com/736x/8d/ec/15/8dec15cb39025f3790f06ba201f89dc9.jpg',
-        targetId: 'mai-data'
+        targetId: 'https://open.spotify.com/user/nateqmai?si=39fae9ebfd7c48f3'
     },
     
   ];

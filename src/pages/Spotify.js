@@ -7,7 +7,7 @@ import NavBar from '../components/NavBar';
 const Spotify = () => {
   const navigate = useNavigate();
   const handleButtonClick = () => {
-    navigate('/spotify/mai');
+    navigate('/spotify/mai#');
   };
 
   return (
@@ -66,7 +66,6 @@ const Spotify = () => {
         <blockquote>
          "(Spotify) feels a lot more private than Facebook or other social media platforms because you're feeding its algorithms in a different way" - Matt Burgess, senior writer @ WIRED, focused on security, privacy, and data.
         </blockquote>
-        <div className="flowchart">[Flowchart: Spotify Data Collection Process]</div>
       </section>
 
       {/* Ethical Issues Section */}
@@ -82,7 +81,6 @@ const Spotify = () => {
         <p>
           Spotify's lack of transparency makes it difficult for users to make informed decisions about their privacy. It takes advantage of users who lack sufficient awareness to navigate these settings.
         </p>
-        <div className="privacy-impact-diagram">[Privacy Impact Diagram]</div>
       </section>
 
       {/* Spotify Wrapped Section */}
@@ -153,7 +151,6 @@ const Spotify = () => {
           Spotify's personalization comes at a cost to user privacy. Companies must balance user satisfaction with respect for privacy.
           While personalized music recommendations can be beneficial, they should not come at the expense of user rights. By prioritizing transparency and giving users more control over their data, Spotify has the potential to set an industry standard for ethical data use.
         </p>
-        <div className="scales-visual">[Scales: Personalization vs. Privacy]</div>
       </section>
 
       {/* Interactive Section */}

@@ -55,8 +55,8 @@ const NavBar = () => {
     
     {
         title: 'mai spotify account',
-        artist: 'mai',
-        imageUrl: 'https://i.pinimg.com/736x/8d/ec/15/8dec15cb39025f3790f06ba201f89dc9.jpg',
+        artist: 'olive',
+        imageUrl: 'https://media.discordapp.net/attachments/1277491270347915375/1313977261330006087/image.jpg?ex=6752182f&is=6750c6af&hm=ea5487f522efdca9bd2b51882d6066cbf2990367b8eddfe3583b7dc1fc4a03ce&=&format=webp&width=690&height=1226',
         targetId: 'https://open.spotify.com/user/nateqmai?si=39fae9ebfd7c48f3'
     },
     

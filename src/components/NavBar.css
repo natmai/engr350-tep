@@ -1,6 +1,6 @@
 .nav-bar {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Define 5 columns per row */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
     padding: 30px;
     justify-items: start
   }

@@ -2,6 +2,7 @@ import React from 'react';
 import './Mai.css';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../components copy/NavBar';
+import ScrollToTop from '../components/ScrollToTop';
 
 
 const Mai = () => {
@@ -130,6 +131,7 @@ const Mai = () => {
         <p>made with ♡ for ENGR 350</p>
         <div className="social-links">by mai</div>
       </footer>
+
     </div>
   );
 };

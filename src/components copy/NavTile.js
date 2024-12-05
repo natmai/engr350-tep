@@ -3,7 +3,11 @@ import './NavTile.css';
 
 const NavTile = ({ title, artist, imageUrl, targetId }) => {
   const handleClick = () => {
-    document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' });
+    if (targetId.startsWith('http')) {
+      window.open(targetId, '_blank', 'noopener,noreferrer');
+    } else {
+      document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (

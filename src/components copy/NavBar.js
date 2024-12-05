@@ -7,7 +7,7 @@ const NavBar = () => {
     {
       title: 'Collection Process',
       artist: '',
-      imageUrl: 'https://media.discordapp.net/attachments/1299538244287074394/1313258566463000616/IMG_0755.jpg?ex=67517519&is=67502399&hm=16c136d6b05bc9795ca074546aff8fd32f4f5dd39ab41e6dcf04ab2e3139e772&=&format=webp&width=1272&height=1228',
+      imageUrl: 'https://i.imgur.com/iBzP47b.jpeg',
       targetId: 'collection-process'
     },
     {

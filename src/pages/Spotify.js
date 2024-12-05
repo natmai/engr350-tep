@@ -2,12 +2,13 @@ import React from 'react';
 import './Spotify.css';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/NavBar';
-
+import ScrollToTop from '../components/ScrollToTop';
 
 const Spotify = () => {
   const navigate = useNavigate();
   const handleButtonClick = () => {
-    navigate('/spotify/mai#');
+    navigate('/spotify/mai');
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -166,6 +167,7 @@ const Spotify = () => {
         <p>made with ♡ for ENGR 350</p>
         <div className="social-links">by mai</div>
       </footer>
+
     </div>
   );
 };
